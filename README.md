@@ -11,9 +11,9 @@ text.placeholder = @"input example";
 
 text.delegate = self;
 
-[text setInactiveImage:[UIImage imageNamed:@"accounttextfieldiconinactive"]];
+[text setInactiveImage:[UIImage imageNamed:@"exampleiconinactive"]];
 
-text.activeImage = [UIImage imageNamed:@"accounttextfieldicon"];
+text.activeImage = [UIImage imageNamed:@"exampleicon"];
 
 text.text = @"example";
 
