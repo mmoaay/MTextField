@@ -11,6 +11,8 @@
 @property(nonatomic,strong)UIImage *activeImage;
 @property(nonatomic,strong)UIImage *inactiveImage;
 
--(void)setInactiveImage:(UIImage *)image;
+// 设置激活和未激活时的图片
+-(void)setInactiveImageWithName:(NSString *)imageName;
+-(void)setActiveImageWithName:(NSString *)imageName;
 
 @end
